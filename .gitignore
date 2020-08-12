@@ -10,8 +10,16 @@ package-lock.json
 .vscode/
 
 build/
-tmp/
+
+tmp/*
+!tmp/.gitkeep
+
+!tmp/uploads
+tmp/uploads/*
+
+!tmp/uploads/.gitkeep
 !uploads/.gitkeep
+
 temp/
 
 # orm
