@@ -1,0 +1,18 @@
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+
+# vscode
+.editorconfig
+.idea/
+.vscode/
+
+build/
+tmp/
+!uploads/.gitkeep
+temp/
+
+# orm
+ormconfig.json
